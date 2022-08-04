@@ -7,6 +7,7 @@ JSON Feed loaded from https://rss.applemarketingtools.com
 - No Storyboards
 - Networking error handling 
 - Retry loading
+- Codable + Realm offline caching
 
 
 Project Structure
