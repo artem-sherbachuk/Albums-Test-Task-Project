@@ -24,4 +24,7 @@ Project Structure
 - View Models. The album view models
 
 - Common. Base view controller abstraction + extensions
+
+- video preview
+https://youtube.com/shorts/W7q2EmqxG8g?feature=share
  
