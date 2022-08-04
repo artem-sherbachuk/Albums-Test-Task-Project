@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8363F308289BBC4E001C46BE /* AlbumGenresTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8363F307289BBC4E001C46BE /* AlbumGenresTagsView.swift */; };
+		83B5B2A0289B1138005BC0FF /* AlbumsLocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B5B29F289B1138005BC0FF /* AlbumsLocalStorage.swift */; };
+		83B5B2A2289B1449005BC0FF /* DBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B5B2A1289B1449005BC0FF /* DBRepository.swift */; };
+		83B5B2A5289B2EEB005BC0FF /* AlbumsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B5B2A4289B2EEB005BC0FF /* AlbumsCollectionView.swift */; };
 		83FB9B39289A6D2600C4AE34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B38289A6D2600C4AE34 /* AppDelegate.swift */; };
 		83FB9B3B289A6D2600C4AE34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B3A289A6D2600C4AE34 /* SceneDelegate.swift */; };
-		83FB9B3D289A6D2600C4AE34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B3C289A6D2600C4AE34 /* ViewController.swift */; };
-		83FB9B40289A6D2600C4AE34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FB9B3E289A6D2600C4AE34 /* Main.storyboard */; };
+		83FB9B3D289A6D2600C4AE34 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B3C289A6D2600C4AE34 /* AlbumsViewController.swift */; };
 		83FB9B42289A6D2700C4AE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FB9B41289A6D2700C4AE34 /* Assets.xcassets */; };
 		83FB9B45289A6D2700C4AE34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FB9B43289A6D2700C4AE34 /* LaunchScreen.storyboard */; };
+		83FB9B4D289A6FA400C4AE34 /* AlbumDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B4C289A6FA400C4AE34 /* AlbumDetailsViewController.swift */; };
+		83FB9B55289A713000C4AE34 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 83FB9B54289A713000C4AE34 /* Realm */; };
+		83FB9B57289A713000C4AE34 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 83FB9B56289A713000C4AE34 /* RealmSwift */; };
+		83FB9B5C289A771500C4AE34 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B5B289A771500C4AE34 /* BaseViewController.swift */; };
+		83FB9B5F289A77D300C4AE34 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B5E289A77D300C4AE34 /* Coordinator.swift */; };
+		83FB9B62289A84C400C4AE34 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B61289A84C400C4AE34 /* Album.swift */; };
+		83FB9B65289A954400C4AE34 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B64289A954400C4AE34 /* AlbumViewModel.swift */; };
+		83FB9B6B289AA0F300C4AE34 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B6A289AA0F300C4AE34 /* ImageLoader.swift */; };
+		83FB9B6D289AC98500C4AE34 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B6C289AC98500C4AE34 /* AlbumCell.swift */; };
+		83FB9B6F289ACEA800C4AE34 /* AlbumsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B6E289ACEA800C4AE34 /* AlbumsAPI.swift */; };
+		83FB9B71289AD47E00C4AE34 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B70289AD47E00C4AE34 /* Feed.swift */; };
+		83FB9B73289B04FF00C4AE34 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B72289B04FF00C4AE34 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8363F307289BBC4E001C46BE /* AlbumGenresTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumGenresTagsView.swift; sourceTree = "<group>"; };
+		83B5B29F289B1138005BC0FF /* AlbumsLocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsLocalStorage.swift; sourceTree = "<group>"; };
+		83B5B2A1289B1449005BC0FF /* DBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBRepository.swift; sourceTree = "<group>"; };
+		83B5B2A4289B2EEB005BC0FF /* AlbumsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCollectionView.swift; sourceTree = "<group>"; };
 		83FB9B35289A6D2600C4AE34 /* Albums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Albums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83FB9B38289A6D2600C4AE34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83FB9B3A289A6D2600C4AE34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83FB9B3C289A6D2600C4AE34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		83FB9B3F289A6D2600C4AE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83FB9B3C289A6D2600C4AE34 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		83FB9B41289A6D2700C4AE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83FB9B44289A6D2700C4AE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83FB9B46289A6D2700C4AE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FB9B4C289A6FA400C4AE34 /* AlbumDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewController.swift; sourceTree = "<group>"; };
+		83FB9B5B289A771500C4AE34 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		83FB9B5E289A77D300C4AE34 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		83FB9B61289A84C400C4AE34 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		83FB9B64289A954400C4AE34 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		83FB9B6A289AA0F300C4AE34 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		83FB9B6C289AC98500C4AE34 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		83FB9B6E289ACEA800C4AE34 /* AlbumsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsAPI.swift; sourceTree = "<group>"; };
+		83FB9B70289AD47E00C4AE34 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		83FB9B72289B04FF00C4AE34 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +59,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83FB9B57289A713000C4AE34 /* RealmSwift in Frameworks */,
+				83FB9B55289A713000C4AE34 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83B5B2A3289B1477005BC0FF /* Data Base */ = {
+			isa = PBXGroup;
+			children = (
+				83B5B2A1289B1449005BC0FF /* DBRepository.swift */,
+				83FB9B74289B10CD00C4AE34 /* Local Storage */,
+				83FB9B69289AA0E100C4AE34 /* Networking */,
+			);
+			path = "Data Base";
+			sourceTree = "<group>";
+		};
 		83FB9B2C289A6D2600C4AE34 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +98,80 @@
 			children = (
 				83FB9B38289A6D2600C4AE34 /* AppDelegate.swift */,
 				83FB9B3A289A6D2600C4AE34 /* SceneDelegate.swift */,
-				83FB9B3C289A6D2600C4AE34 /* ViewController.swift */,
-				83FB9B3E289A6D2600C4AE34 /* Main.storyboard */,
+				83FB9B5E289A77D300C4AE34 /* Coordinator.swift */,
+				83B5B2A3289B1477005BC0FF /* Data Base */,
+				83FB9B63289A952B00C4AE34 /* View Models */,
+				83FB9B60289A846300C4AE34 /* Models */,
+				83FB9B5D289A772200C4AE34 /* Common */,
+				83FB9B4F289A6FB800C4AE34 /* Albums */,
+				83FB9B4E289A6FAA00C4AE34 /* Album Details */,
 				83FB9B41289A6D2700C4AE34 /* Assets.xcassets */,
 				83FB9B43289A6D2700C4AE34 /* LaunchScreen.storyboard */,
 				83FB9B46289A6D2700C4AE34 /* Info.plist */,
 			);
 			path = Albums;
+			sourceTree = "<group>";
+		};
+		83FB9B4E289A6FAA00C4AE34 /* Album Details */ = {
+			isa = PBXGroup;
+			children = (
+				83FB9B4C289A6FA400C4AE34 /* AlbumDetailsViewController.swift */,
+				8363F307289BBC4E001C46BE /* AlbumGenresTagsView.swift */,
+			);
+			path = "Album Details";
+			sourceTree = "<group>";
+		};
+		83FB9B4F289A6FB800C4AE34 /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				83FB9B3C289A6D2600C4AE34 /* AlbumsViewController.swift */,
+				83B5B2A4289B2EEB005BC0FF /* AlbumsCollectionView.swift */,
+				83FB9B6C289AC98500C4AE34 /* AlbumCell.swift */,
+			);
+			path = Albums;
+			sourceTree = "<group>";
+		};
+		83FB9B5D289A772200C4AE34 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				83FB9B5B289A771500C4AE34 /* BaseViewController.swift */,
+				83FB9B72289B04FF00C4AE34 /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		83FB9B60289A846300C4AE34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83FB9B61289A84C400C4AE34 /* Album.swift */,
+				83FB9B70289AD47E00C4AE34 /* Feed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83FB9B63289A952B00C4AE34 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				83FB9B64289A954400C4AE34 /* AlbumViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		83FB9B69289AA0E100C4AE34 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				83FB9B6A289AA0F300C4AE34 /* ImageLoader.swift */,
+				83FB9B6E289ACEA800C4AE34 /* AlbumsAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		83FB9B74289B10CD00C4AE34 /* Local Storage */ = {
+			isa = PBXGroup;
+			children = (
+				83B5B29F289B1138005BC0FF /* AlbumsLocalStorage.swift */,
+			);
+			path = "Local Storage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +190,10 @@
 			dependencies = (
 			);
 			name = Albums;
+			packageProductDependencies = (
+				83FB9B54289A713000C4AE34 /* Realm */,
+				83FB9B56289A713000C4AE34 /* RealmSwift */,
+			);
 			productName = Albums;
 			productReference = 83FB9B35289A6D2600C4AE34 /* Albums.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 83FB9B2C289A6D2600C4AE34;
+			packageReferences = (
+				83FB9B53289A713000C4AE34 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 83FB9B36289A6D2600C4AE34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +241,6 @@
 			files = (
 				83FB9B45289A6D2700C4AE34 /* LaunchScreen.storyboard in Resources */,
 				83FB9B42289A6D2700C4AE34 /* Assets.xcassets in Resources */,
-				83FB9B40289A6D2600C4AE34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +251,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83FB9B3D289A6D2600C4AE34 /* ViewController.swift in Sources */,
+				83B5B2A5289B2EEB005BC0FF /* AlbumsCollectionView.swift in Sources */,
+				83FB9B6F289ACEA800C4AE34 /* AlbumsAPI.swift in Sources */,
+				8363F308289BBC4E001C46BE /* AlbumGenresTagsView.swift in Sources */,
+				83FB9B71289AD47E00C4AE34 /* Feed.swift in Sources */,
+				83FB9B5C289A771500C4AE34 /* BaseViewController.swift in Sources */,
+				83B5B2A0289B1138005BC0FF /* AlbumsLocalStorage.swift in Sources */,
+				83FB9B3D289A6D2600C4AE34 /* AlbumsViewController.swift in Sources */,
+				83FB9B5F289A77D300C4AE34 /* Coordinator.swift in Sources */,
+				83B5B2A2289B1449005BC0FF /* DBRepository.swift in Sources */,
 				83FB9B39289A6D2600C4AE34 /* AppDelegate.swift in Sources */,
+				83FB9B65289A954400C4AE34 /* AlbumViewModel.swift in Sources */,
+				83FB9B6B289AA0F300C4AE34 /* ImageLoader.swift in Sources */,
+				83FB9B73289B04FF00C4AE34 /* Extensions.swift in Sources */,
+				83FB9B4D289A6FA400C4AE34 /* AlbumDetailsViewController.swift in Sources */,
+				83FB9B6D289AC98500C4AE34 /* AlbumCell.swift in Sources */,
+				83FB9B62289A84C400C4AE34 /* Album.swift in Sources */,
 				83FB9B3B289A6D2600C4AE34 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +274,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		83FB9B3E289A6D2600C4AE34 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83FB9B3F289A6D2600C4AE34 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		83FB9B43289A6D2700C4AE34 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +411,7 @@
 				INFOPLIST_FILE = Albums/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +439,7 @@
 				INFOPLIST_FILE = Albums/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +477,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		83FB9B53289A713000C4AE34 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83FB9B54289A713000C4AE34 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83FB9B53289A713000C4AE34 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		83FB9B56289A713000C4AE34 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83FB9B53289A713000C4AE34 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83FB9B2D289A6D2600C4AE34 /* Project object */;
 }
