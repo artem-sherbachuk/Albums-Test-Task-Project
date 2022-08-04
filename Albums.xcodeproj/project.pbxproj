@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B78A211C8E6B41D1D0D147C /* Pods_Albums.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F745B48EEEEDA4EAFA29B5 /* Pods_Albums.framework */; };
 		8363F308289BBC4E001C46BE /* AlbumGenresTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8363F307289BBC4E001C46BE /* AlbumGenresTagsView.swift */; };
 		83B5B2A0289B1138005BC0FF /* AlbumsLocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B5B29F289B1138005BC0FF /* AlbumsLocalStorage.swift */; };
 		83B5B2A2289B1449005BC0FF /* DBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B5B2A1289B1449005BC0FF /* DBRepository.swift */; };
@@ -17,8 +18,6 @@
 		83FB9B42289A6D2700C4AE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FB9B41289A6D2700C4AE34 /* Assets.xcassets */; };
 		83FB9B45289A6D2700C4AE34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FB9B43289A6D2700C4AE34 /* LaunchScreen.storyboard */; };
 		83FB9B4D289A6FA400C4AE34 /* AlbumDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B4C289A6FA400C4AE34 /* AlbumDetailsViewController.swift */; };
-		83FB9B55289A713000C4AE34 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 83FB9B54289A713000C4AE34 /* Realm */; };
-		83FB9B57289A713000C4AE34 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 83FB9B56289A713000C4AE34 /* RealmSwift */; };
 		83FB9B5C289A771500C4AE34 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B5B289A771500C4AE34 /* BaseViewController.swift */; };
 		83FB9B5F289A77D300C4AE34 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B5E289A77D300C4AE34 /* Coordinator.swift */; };
 		83FB9B62289A84C400C4AE34 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB9B61289A84C400C4AE34 /* Album.swift */; };
@@ -31,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F8046ABB5AC49E82E11DFB0 /* Pods-Albums.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Albums.release.xcconfig"; path = "Target Support Files/Pods-Albums/Pods-Albums.release.xcconfig"; sourceTree = "<group>"; };
 		8363F307289BBC4E001C46BE /* AlbumGenresTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumGenresTagsView.swift; sourceTree = "<group>"; };
 		83B5B29F289B1138005BC0FF /* AlbumsLocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsLocalStorage.swift; sourceTree = "<group>"; };
 		83B5B2A1289B1449005BC0FF /* DBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBRepository.swift; sourceTree = "<group>"; };
@@ -52,6 +52,8 @@
 		83FB9B6E289ACEA800C4AE34 /* AlbumsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsAPI.swift; sourceTree = "<group>"; };
 		83FB9B70289AD47E00C4AE34 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		83FB9B72289B04FF00C4AE34 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A2F745B48EEEEDA4EAFA29B5 /* Pods_Albums.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Albums.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29022C7A689D8E277766862 /* Pods-Albums.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Albums.debug.xcconfig"; path = "Target Support Files/Pods-Albums/Pods-Albums.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +61,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83FB9B57289A713000C4AE34 /* RealmSwift in Frameworks */,
-				83FB9B55289A713000C4AE34 /* Realm in Frameworks */,
+				5B78A211C8E6B41D1D0D147C /* Pods_Albums.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F57C7DE00789C4E3749D813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2F745B48EEEEDA4EAFA29B5 /* Pods_Albums.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5747BF13FB0C474402004878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B29022C7A689D8E277766862 /* Pods-Albums.debug.xcconfig */,
+				1F8046ABB5AC49E82E11DFB0 /* Pods-Albums.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		83B5B2A3289B1477005BC0FF /* Data Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +101,8 @@
 			children = (
 				83FB9B37289A6D2600C4AE34 /* Albums */,
 				83FB9B36289A6D2600C4AE34 /* Products */,
+				5747BF13FB0C474402004878 /* Pods */,
+				0F57C7DE00789C4E3749D813 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,19 +202,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83FB9B49289A6D2700C4AE34 /* Build configuration list for PBXNativeTarget "Albums" */;
 			buildPhases = (
+				91EDBE1706D20B62F8665EE5 /* [CP] Check Pods Manifest.lock */,
 				83FB9B31289A6D2600C4AE34 /* Sources */,
 				83FB9B32289A6D2600C4AE34 /* Frameworks */,
 				83FB9B33289A6D2600C4AE34 /* Resources */,
+				00BAEA7A7B9C9982A85D4A3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Albums;
-			packageProductDependencies = (
-				83FB9B54289A713000C4AE34 /* Realm */,
-				83FB9B56289A713000C4AE34 /* RealmSwift */,
-			);
 			productName = Albums;
 			productReference = 83FB9B35289A6D2600C4AE34 /* Albums.app */;
 			productType = "com.apple.product-type.application";
@@ -222,9 +241,6 @@
 				Base,
 			);
 			mainGroup = 83FB9B2C289A6D2600C4AE34;
-			packageReferences = (
-				83FB9B53289A713000C4AE34 /* XCRemoteSwiftPackageReference "realm-swift" */,
-			);
 			productRefGroup = 83FB9B36289A6D2600C4AE34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -245,6 +261,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00BAEA7A7B9C9982A85D4A3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Albums/Pods-Albums-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Albums/Pods-Albums-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Albums/Pods-Albums-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91EDBE1706D20B62F8665EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Albums-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83FB9B31289A6D2600C4AE34 /* Sources */ = {
@@ -401,6 +459,7 @@
 		};
 		83FB9B4A289A6D2700C4AE34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29022C7A689D8E277766862 /* Pods-Albums.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -429,6 +488,7 @@
 		};
 		83FB9B4B289A6D2700C4AE34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8046ABB5AC49E82E11DFB0 /* Pods-Albums.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,30 +537,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		83FB9B53289A713000C4AE34 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.28.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		83FB9B54289A713000C4AE34 /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 83FB9B53289A713000C4AE34 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
-		};
-		83FB9B56289A713000C4AE34 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 83FB9B53289A713000C4AE34 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83FB9B2D289A6D2600C4AE34 /* Project object */;
 }
